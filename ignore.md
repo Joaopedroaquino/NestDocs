@@ -32,3 +32,5 @@ O @Module()decorador recebe um único objeto cujas propriedades descrevem o mód
 
 
 </ul>
+
+<p>@Global()decorador torna o módulo de escopo global. Os módulos globais devem ser registrados apenas uma vez , geralmente pelo módulo raiz ou núcleo. No exemplo acima, o CatsServiceprovedor será onipresente e os módulos que desejam injetar o serviço não precisarão importar o CatsModuleem seu array de importações.</p>
